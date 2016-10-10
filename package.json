@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "traceur": "0.0.111"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "script-name": "babel-node script.js"
+  }
+}

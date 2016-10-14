@@ -63,6 +63,43 @@ var html1 =`
   </a>
   </span>
 </div>
+        <div class="swiper-container swiper-2" style="">
+          <div class="swiper-pagination">
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+
+          </div>
+          <div class="swiper-wrapper" style="transition-duration: 0ms;transform: translate3d(0px, 0px, 0px);">
+            <div class="sx-table-row">
+              <div class="sx-table-pic">
+                <div class="sx-table-image-holder">
+                   <img class="sx-product-image" src="images/home-slide/home-slide1.png" />
+                </div>
+              </div>
+            </div>
+             <div class="sx-table-row">
+              <div class="sx-table-pic">
+                <div class="sx-table-image-holder">
+                   <img class="sx-product-image" src="images/home-slide/home-slide2.png" />
+                </div>
+              </div>
+
+            </div>
+                <div class="sx-table-row">
+              <div class="sx-table-pic">
+                <div class="sx-table-image-holder">
+                   <img class="sx-product-image" src="images/home-slide/home-slide3.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
 <p class="tjyxhead_p" style="
     height: 30px;
     line-height: 30px;
@@ -101,7 +138,7 @@ var html1 =`
       <li>
         <a href="#" class="myButton custom-navBtn no-tab">
 
-          <span>魔域之剑</span>
+          <span>弑天刀</span>
           <button style="
               font-size: 12px;
               width: 100%;
@@ -120,7 +157,7 @@ var html1 =`
       <li>
         <a href="#" class="myButton custom-navBtn no-tab">
 
-          <span>魔域之剑</span>
+          <span>九天仙境</span>
           <button style="
               font-size: 12px;
               width: 100%;
@@ -139,7 +176,7 @@ var html1 =`
       <li>
         <a href="#" class="myButton custom-navBtn no-tab">
 
-          <span>魔域之剑</span>
+          <span>次元战争</span>
           <button style="
               font-size: 12px;
               width: 100%;

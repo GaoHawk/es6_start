@@ -1,0 +1,2 @@
+'use strict';
+var notice = ("\n<div class=\"message-one\">\n    <p class=\"message-alert\"><i></i><span>给" + data.data[i].classroom_info.name + "发送了通知</span></p>\n    <p class=\"the\">" + data.data[i].title + "</p>\n    <p>" + data.data[i].content + "</p>\n    <p class=\"date\">\n    <i onclick=\"playAudio();\">\n    </i>" + record_length + "\"</p>\n    <audio class=\"noticesAud\" src=\"" + audFn(data.data[i].record_url) + "\" style=\"display:none;\">\n    </audio>\n    <p class=\"publish-data\">datefn(" + data.data[i].publish_at + ")</p>\n</div>\n");

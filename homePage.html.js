@@ -64,7 +64,7 @@ var html1 =`
   </a>
   </span>
 </div>
-        <div class="swiper-container swiper-2" style="">
+        <div id="swiper-1" class="swiper-container swiper-2" style="">
           <div class="swiper-pagination">
             <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
             <span class="swiper-pagination-bullet"></span>
@@ -101,6 +101,8 @@ var html1 =`
         </div>
 
 
+
+
 <p class="tjyxhead_p" style="
     height: 30px;
     line-height: 30px;
@@ -110,13 +112,13 @@ var html1 =`
     margin: 2% 0;
     margin-bottom:0;
     border-bottom: 2px solid #6ddeff;
-"><img src="images/picon01.png" style="    height: 24px;
+"><img src="images/home/current.png" style="    height: 24px;
     vertical-align: middle;
     display: inline;"> 推荐游戏</p>
 <div id="navi">
-    <ul style="padding-left: 0;marign-bottom:1px;">
+    <ul id="shouye" style="padding-left: 0;marign-bottom:1px;">
       <li>
-        <a href="#" class="myButton custom-navBtn no-tab">
+        <a  class="myButton custom-navBtn no-tab">
 
           <span>霸业</span>
           <button class="gay-home-btn" style="
@@ -137,7 +139,7 @@ var html1 =`
         </a>
       </li>
       <li>
-        <a href="#" class="myButton custom-navBtn no-tab">
+        <a  class="myButton custom-navBtn no-tab">
 
           <span>焚天</span>
           <button class="gay-home-btn" style="
@@ -156,7 +158,7 @@ var html1 =`
         </a>
       </li>
       <li>
-        <a href="#" class="myButton custom-navBtn no-tab">
+        <a  class="myButton custom-navBtn no-tab">
 
           <span>风暴要塞</span>
           <button class="gay-home-btn" style="
@@ -175,7 +177,7 @@ var html1 =`
         </a>
       </li>
       <li>
-        <a href="#" class="myButton custom-navBtn no-tab">
+        <a  class="myButton custom-navBtn no-tab">
 
           <span>武道乾坤</span>
           <button class="gay-home-btn" style="
@@ -194,8 +196,7 @@ var html1 =`
         </a>
       </li>
       <li>
-        <a href="#" class="myButton custom-navBtn no-tab">
-
+        <a  class="myButton custom-navBtn no-tab">
           <span>一剑灭天</span>
           <button class="gay-home-btn" style="
               font-size: 12px;
@@ -229,7 +230,7 @@ var html1 =`
     margin: 2% 0;
     margin-bottom:0;
     border-bottom: 2px solid #6ddeff;
-  "><img src="images/picon02.png" style="    height: 24px;
+  "><img src="images/home/current.png" style="    height: 24px;
     vertical-align: middle;
     display: inline;"> 开服状态</p>
 
@@ -287,7 +288,7 @@ var html1 =`
     margin: 2% 0;
     margin-bottom:0;
     border-bottom: 2px solid #6ddeff;
-  "><img src="images/picon03.png" style="    height: 24px;
+  "><img src="images/home/current.png" style="    height: 24px;
     vertical-align: middle;
     display: inline;"> 游戏排行</p>
     <ul class="ph_ul">
@@ -309,7 +310,7 @@ var html1 =`
                             <p class="yxphinfo_p">角色扮演｜90M</p>
                         </div>
                     </dd>
-                    <dd class="dd03">9214</dd>
+                    <dd class="dd03">45671</dd>
                     <dd class="dd04"><a href="game.apk" download="game.apk"><img src="images/xiazai.png"></a></dd>
                 </dl>
             </li><li class="phli">
@@ -319,10 +320,10 @@ var html1 =`
                       <a href="#tabbar-game-detail" class="yxphicon_a db fl mui-tab-item"><img src="images/wdqk.png"></a>
                         <div class="yxph_r fl">
                           <p class="yxphname_p"><a href="#tabbar-game-detail" class="mui-tab-item">武道乾坤</a></p>
-                            <p class="yxphinfo_p">网络游戏｜88MM</p>
+                            <p class="yxphinfo_p">网络游戏｜88M</p>
                         </div>
                     </dd>
-                    <dd class="dd03">6542</dd>
+                    <dd class="dd03">24542</dd>
                     <dd class="dd04"><a href="game.apk" download="game.apk"><img src="images/xiazai.png"></a></dd>
                 </dl>
             </li><li class="phli">
@@ -332,10 +333,10 @@ var html1 =`
                       <a href="#tabbar-game-detail" class="yxphicon_a db fl mui-tab-item"><img src="images/fentian.png"></a>
                         <div class="yxph_r fl">
                           <p class="yxphname_p"><a href="#tabbar-game-detail" class="mui-tab-item">焚天</a></p>
-                            <p class="yxphinfo_p">｜</p>
+                            <p class="yxphinfo_p">角色扮演｜520M</p>
                         </div>
                     </dd>
-                    <dd class="dd03">7054</dd>
+                    <dd class="dd03">9054</dd>
                     <dd class="dd04"><a href="game.apk" download="game.apk"><img src="images/xiazai.png"></a></dd>
                 </dl>
             </li><li class="phli">
@@ -348,7 +349,7 @@ var html1 =`
                             <p class="yxphinfo_p">角色扮演｜64.72 M</p>
                         </div>
                     </dd>
-                    <dd class="dd03">45617</dd>
+                    <dd class="dd03">4617</dd>
                     <dd class="dd04"><a href="game.apk" download="game.apk"><img src="images/xiazai.png"></a></dd>
                 </dl>
             </li><li class="phli">
@@ -358,10 +359,10 @@ var html1 =`
                       <a href="#tabbar-game-detail" class="yxphicon_a db fl mui-tab-item"><img src="images/fbys.png"></a>
                         <div class="yxph_r fl">
                           <p class="yxphname_p"><a href="http://m.49you.com/wap/jianjie?game_id=555">风暴要塞</a></p>
-                            <p class="yxphinfo_p">网络游戏｜93MM</p>
+                            <p class="yxphinfo_p">网络游戏｜93M</p>
                         </div>
                     </dd>
-                    <dd class="dd03">5548</dd>
+                    <dd class="dd03">1548</dd>
                     <dd class="dd04"><a href="game.apk" download="game.apk"><img src="images/xiazai.png"></a></dd>
                 </dl>
             </li>     </ul>
@@ -370,7 +371,7 @@ var html1 =`
     <ul class="mui-table-view mui-grid-view mui-grid-9" >
             <li class="mui-table-view-cell mui-media mui-col-xs-4" style="color:#76c6da;"><a href="#" class="no-tab">
                     <span class="mui-icon mui-icon-qq"></span>
-                    <div class="mui-media-body" style="color:inherit;">点击交流</div></a></li>
+                    <div class="mui-media-body" style="color:inherit;">122811081</div></a></li>
             <li class="mui-table-view-cell mui-media mui-col-xs-4" style="color:orange"><a href="#" class="no-tab" style="width:100%;">
                     <span class="" style="display: inline-block;
     height: 55px;">
